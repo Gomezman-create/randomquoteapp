@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100dvh;
+  background: rgb(51, 25, 25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#wrapper {
+  width: 530px;
+  height: auto;
+}
+#quote-box {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  background: white;
+  border-radius: 0.4rem;
+}
+#new-quote {
+  width: 90px;
+  padding: 6px 0;
+  background: rgb(51, 25, 25);
+  border-radius: 0.3rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.quote_text .fas {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-right: 0.5rem;
+}
+.quote_text #text {
+  font-size: 1.5rem;
+}
+
+.quote_author {
+  width: 100%;
+  height: 4rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon_container {
+  display: flex;
+  gap: 1rem;
+}
+.icon_container i {
+  width: 2rem;
+  height: 2rem;
+  background: rgb(51, 25, 25);
+  color: white;
+  text-align: center;
+  border-radius: 0.3rem;
+  padding-top: 0.4rem;
+}
